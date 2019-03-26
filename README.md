@@ -1,2 +1,3 @@
 # saveCounter
-Simple counter of ctrl-s
+Simple counter of ctrl+s
+
