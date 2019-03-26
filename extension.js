@@ -14,8 +14,7 @@ function activate(context) {
 		save++;
 		saved++;
 		context.globalState.update('saved', saved);
-		vscode.window.showInformationMessage(saved + ' saves in total!');
-		vscode.window.showInformationMessage(save + ' saves this session!');
+		vscode.window.showInformationMessage(save + ' saves this session! ' + saved + " saves in total!");
 	});
 
 	let disposable = vscode.commands.registerCommand('extension.saveCounter', function () {
