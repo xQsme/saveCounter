@@ -2,7 +2,7 @@
 	"name": "savecounter",
 	"displayName": "saveCounter",
 	"description": "Save Counter",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"publisher": "xQQsme",
 	"repository": {
 		"type": "git",
@@ -31,10 +31,10 @@
 		"test": "node ./node_modules/vscode/bin/test"
 	},
 	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"eslint": "^5.13.0",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
+		"typescript": "^3.4.5",
+		"vscode": "^1.1.33",
+		"eslint": "^5.16.0",
+		"@types/node": "^11.13.9",
+		"@types/mocha": "^5.2.6"
 	}
 }
